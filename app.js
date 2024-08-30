@@ -24,5 +24,9 @@
 //document.querySelector('.myClass');
 // above selects first element with class name = myClass
 
+// selecting  anchor tag in a div
+// document.querySelector("div a");
 
+//selecting all anchor tags in a div
+// document.querySelector("div a");
 
