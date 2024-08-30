@@ -16,4 +16,13 @@
 // if we want to select all 'p' tags
 // document.getElementsByTagName("p")[1].innerText= "Abc";
 
+//----- Query selector ----
+//document.querySelector('p');
+// above selects first p element
+//document.querySelector('#myID');
+// above selects first element with id = myID
+//document.querySelector('.myClass');
+// above selects first element with class name = myClass
+
+
 
