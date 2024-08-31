@@ -45,7 +45,11 @@ heading.style.backgroundColor = "yellow";
 
 // changing the anchor tags all to yelow style color inside box class anchors
 let links = document.querySelectorAll(".box a");
-for(let i =0; i<links.length;i++){
-    links[i].style.color="yellow";
+// for(let i =0; i<links.length;i++){
+//     links[i].style.color="yellow";
+// }
+//we can better use for-of loop
+for(link of links){
+    link.style.color="brown";
 }
 
