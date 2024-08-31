@@ -30,3 +30,9 @@
 //selecting all anchor tags in a div
 // document.querySelector("div a");
 
+// ---- innerText ----
+let para = document.querySelector("p");
+console.dir(para);
+// para.innerText = "abc"; this will change para to abc on the screen
+// para.innerText = "a<b>bc</b>"; this will not bold the bc
+// para.innerHTML = "a<b>bc</b>"; this will bold the bc
