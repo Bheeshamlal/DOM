@@ -31,8 +31,21 @@
 // document.querySelector("div a");
 
 // ---- innerText ----
-let para = document.querySelector("p");
-console.dir(para);
+// let para = document.querySelector("p");
+// console.dir(para);
 // para.innerText = "abc"; this will change para to abc on the screen
 // para.innerText = "a<b>bc</b>"; this will not bold the bc
 // para.innerHTML = "a<b>bc</b>"; this will bold the bc
+
+// ----Manipulating Style -----
+// obj.style
+let heading = document.querySelector("h1");
+heading.style.color= "green";
+heading.style.backgroundColor = "yellow";
+
+// changing the anchor tags all to yelow style color inside box class anchors
+let links = document.querySelectorAll(".box a");
+for(let i =0; i<links.length;i++){
+    links[i].style.color="yellow";
+}
+
