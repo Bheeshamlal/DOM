@@ -56,4 +56,6 @@
 //appendChild, append , prepend
 // to add element and show on screen
 
-
+// Removing elements 
+// removeChild(element)
+// remove(element)
