@@ -74,3 +74,14 @@ body.appendChild(newP);
 // this above code will take this new p to the end of screen
 // lets append it in box
 box.appendChild(newP);
+
+// just like appendChild there is append
+// append can append text/string inside any element
+newP.append("new text added");
+// and prepand which appends before an element
+box.prepend(newP);
+// insertAdjacentElement(where, element)
+box.insertAdjacentElement("beforebegin", btn)
+// box.insertAdjacentElement("afterbegin", btn)
+// box.insertAdjacentElement("beforeend", btn)
+// box.insertAdjacentElement("afterend", btn)
