@@ -63,3 +63,14 @@ let box = document.querySelector(".box");
 let btn = document.createElement('button');
 btn.innerText = "Click me";
 box.appendChild(btn);
+
+let newP = document.createElement("p");
+newP.innerText = "New p";
+// above is created p but will not be visible on screen
+// thereore we need to append it 
+// append inside body
+let body = document.querySelector("body");
+body.appendChild(newP);
+// this above code will take this new p to the end of screen
+// lets append it in box
+box.appendChild(newP);
