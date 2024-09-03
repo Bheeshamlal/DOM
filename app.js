@@ -59,3 +59,7 @@
 // Removing elements 
 // removeChild(element)
 // remove(element)
+let box = document.querySelector(".box");
+let btn = document.createElement('button');
+btn.innerText = "Click me";
+box.appendChild(btn);
